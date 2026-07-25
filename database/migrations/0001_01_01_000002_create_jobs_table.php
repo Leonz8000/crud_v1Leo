@@ -57,3 +57,5 @@ return new class extends Migration
         Schema::dropIfExists('failed_jobs');
     }
 };
+// need nga data //
+// dili maka fill dili maka inoput ug data ng aneed sa database
