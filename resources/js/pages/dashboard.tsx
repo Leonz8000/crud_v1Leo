@@ -45,7 +45,7 @@ export default function Dashboard() {
                         value={form.data.description} 
                         onChange={(event)=> form.setData('description', event.target.value)}
                         />
-                        {form.errors.description && <p className="text-sm text-red-600">{form.errors.description}</p>} 
+                        
                     </div>
                     <div className="space-y-2">
                     <label htmlFor="price">Price</label>
